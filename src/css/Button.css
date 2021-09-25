@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Sep, 2021, 11:28:21 AM
+    Author     : Bryan
+*/
+
+.sample-button  {
+color: rgb(19, 255, 17); 
+font-size: calc(16px + 2vmin); 
+line-height: calc(16px); 
+padding: calc(15vmin) ; 
+border-radius: 15px; 
+font-family: Georgia, serif; 
+font-weight: normal; 
+text-decoration: none; 
+font-style: normal; 
+font-variant: normal; 
+text-transform: none; 
+background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+border: 2px solid rgb(28, 110, 164); 
+display: inline-block;}
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75;
+}
+
